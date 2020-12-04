@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="355.0" prefWidth="596.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Client.ControllerClient">
+   <children>
+      <Label layoutX="101.0" layoutY="71.0" text="Name User" />
+      <Label layoutX="101.0" layoutY="108.0" text="ID User" />
+      <Label layoutX="101.0" layoutY="153.0" text="ID Train" />
+      <TextField fx:id="tfNameUser" layoutX="252.0" layoutY="67.0" prefHeight="25.0" prefWidth="217.0" />
+      <TextField fx:id="tfIdUser" layoutX="252.0" layoutY="113.0" prefHeight="25.0" prefWidth="217.0" />
+      <TextField fx:id="tfIdTrain" layoutX="252.0" layoutY="158.0" prefHeight="25.0" prefWidth="217.0" />
+      <Button layoutX="193.0" layoutY="251.0" mnemonicParsing="false" onAction="#BuyButton" prefHeight="25.0" prefWidth="177.0" text="Buy Train" />
+   </children>
+</AnchorPane>
